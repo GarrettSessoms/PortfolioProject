@@ -1,0 +1,141 @@
+/* Header */
+header {
+    background-color: black;
+    color: white; 
+    padding: 20px; 
+    box-sizing: border-box; 
+    align-content: center;
+    height: 250px;
+  }
+
+.main-header {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.main-subhead {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .menu-item {
+    position: relative;
+  }
+  
+  .menu-item a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  .menu-item a:hover {
+    background-color: #555;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .dropdown-content li {
+    border-bottom: 1px solid #555;
+  }
+  
+  .dropdown-content li a {
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content li a:hover {
+    background-color: #555;
+  }
+  
+  .menu-item:hover .dropdown-content {
+    display: block;
+  }
+
+
+/*Body*/
+
+.background-color {
+    background-color: lightblue;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+}
+
+.column {
+    flex: 1; 
+    padding: 10px;
+    margin-top: 25px;
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    text-indent: 40px;
+}
+
+.body-header {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.pumpkinhead {
+    margin-left: 70px;
+}
+
+.contact-heading {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    align-content: center;
+    text-align: center;
+}
+
+.contact-body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    align-content: center;
+    text-align: center;
+}
+
+/*Footer*/
+
+footer {
+    background-color: black;
+    color: white; 
+    padding: 20px; 
+    box-sizing: border-box; 
+    align-content: center;
+    height: 100px;
+    margin-top: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
